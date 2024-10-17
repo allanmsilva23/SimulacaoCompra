@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#produtos, #carrinho {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#produtos p, #carrinho p {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+#produtos p:last-child, #carrinho p:last-child {
+    border-bottom: none;
+}
+
+#valorTotal {
+    font-weight: bold;
+    color: #28a745;
+}
+
+button {
+    border-radius: 3px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

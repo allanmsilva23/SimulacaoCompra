@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Carrinho de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Carrinho de Compras</h1>
+
+    <h2>Produtos Disponíveis</h2>
+    <div id="produtos"></div>
+
+    <h2>Adicionar Produto ao Carrinho</h2>
+    <input type="text" id="nomeProduto" placeholder="Nome do produto" />
+    <button onclick="adicionarAoCarrinho()">Adicionar</button>
+
+    <h2>Carrinho de Compras</h2>
+    <div id="carrinho"></div>
+
+    <h3>Total: R$ <span id="valorTotal">0.00</span></h3>
+
+    <button onclick="ordenarCarrinho()">Ordenar por preço</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
